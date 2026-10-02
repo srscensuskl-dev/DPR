@@ -3,10 +3,21 @@
   <head>
     <title>SRS DPR</title>
     <style>
+      /* Remove default browser margins and hide outer scrollbars */
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden; 
+      }
+      
+      /* Force iframe to perfectly fit the screen without bottom gaps */
       iframe {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         border: none;
+        display: block;
       }
     </style>
   </head>
